@@ -15,11 +15,24 @@ export default {
 
 <style>
     h1 {
+        text-align: center;
         color: red;
         font-size: 30px;
     }
 
     .my_width {
         width: 50vw;
+    }
+
+
+    /********** RESPONSIVE *************/
+    @media screen and (max-width: 767px){
+        h1 {
+            font-size: 20px;
+        }
+
+        .my_width {
+            width: 70vw;
+        }
     }
 </style>

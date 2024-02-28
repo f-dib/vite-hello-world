@@ -18,9 +18,10 @@ export default {
 
 <style>
   .my_title {
-    height: 100vh;
-    
+    height: 95vh;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
